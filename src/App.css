@@ -1,0 +1,98 @@
+.container-fluid{
+    height: 80px;
+    background-color:white;
+}
+.sticky{
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    position: -webkit-sticky;
+    
+}
+
+.locate{
+    height: 30px;
+    text-align: center ;
+    padding-top: 5px;
+    position:sticky;
+
+}
+.container2{
+    
+    background-color: black;
+    height: 80px;
+    padding: 20px;  
+}
+.cartCount{
+    position: absolute;
+ margin-left: -30px;
+margin-top: 15px;}
+
+.sk{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.bk{
+    
+    padding-top: 70px;
+    padding-left: 100px;
+    
+}
+
+.dk{
+    padding-top: 40px;
+    padding-left: 100px;
+    
+}
+
+.ck{
+     padding-top: 40px;
+     padding-left: 100px;
+}
+.ss{
+    padding-left: 380px;
+    padding-top: 40px;
+}
+.butn{
+    padding-top: 30px;
+}
+.footer{
+    background-color:rgb(32,33,36);
+    height: 1200px;
+}
+.ek{
+    padding-left: 250px;
+    
+}
+.fk{
+    padding-left:180px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gk{
+    padding-top: 100px;
+}
+.hk{
+    padding-top:100px ;
+    background-color:rgb(32,33,36);
+    
+}
+.ik{
+    padding-top: 70px;
+    /* background-color:rgb(32,33,36); */
+    height: 100px;
+}
+.cb{
+    position:sticky; 
+top: 120px;
+   z-index: 10 !important;
+   
+}
+.bgimg{
+    background-image: url("https://online.kfc.co.in/static/media/offer_deals_banner.777f20e1.svg");
+    height: 280px;
+    padding: 90px;
+}

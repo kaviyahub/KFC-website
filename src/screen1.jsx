@@ -1,7 +1,13 @@
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
 
 
 const screen1 = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <>
     
@@ -26,7 +32,7 @@ const screen1 = () => {
 
         {/* LOGOBAR */}
      
-        <div className="container-fluid">
+        <div className="container-fluid" data-aos="fade-up">
           <div className='row'>
             <div className='col-md-5 justify-content-spacearound mx-5 '>
               
@@ -64,11 +70,11 @@ const screen1 = () => {
 
 {/* browser bar */}
 
-  <div className='container-md'>
+  <div className='container-md' data-aos="fade-up">
 
     <div style={{marginTop:"90px"}} className='row sk'>
 
-      <div className='col-md-4 '>
+      <div className='col-md-4 ' data-aos="fade-up">
 
       <b style={{fontSize:"30px",marginLeft:"120px"}}>BROWSE CATGORIES</b>
       </div>
